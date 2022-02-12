@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
-=======================================
+技术文档写作指南
+####################################
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+从产品的设计、研发到使用、升级、维护的整个过程中，会有各种各样不同的文档。写文档是一个技术人员必备的技能。
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+https://write-the-document.readthedocs.io
