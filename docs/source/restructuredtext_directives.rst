@@ -66,15 +66,15 @@ image 和 figure 支持的选项：
 ::
 
     .. table:: 表格的标题
-    :width: 300px
-    :align: center
+        :width: 300px
+        :align: center
 
-    =====  =====
-    A      not A
-    =====  =====
-    False  True
-    True   False
-    =====  =====
+        =====  =====
+        A      not A
+        =====  =====
+        False  True
+        True   False
+        =====  =====
 
 逗号分隔的表格
 ====================================
