@@ -76,7 +76,7 @@ sphinx-quickstart 脚本工具会在文档目录下创建了一个 Makefile 和�
 
 ::
 
-    # 自定义构建时输出的目录
+    # 自定义构建时输出的目录，最后一个参数
     sphinx-build -b html document/source ~/doc
 
 
