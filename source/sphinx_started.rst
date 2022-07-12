@@ -72,6 +72,14 @@ sphinx-quickstart 脚本工具会在文档目录下创建了一个 Makefile 和�
     # 构建 PDF 文档
     make latexpdf
 
+同时，可以使用 sphinx-build 命令更详细的自定义构建内容。请参见 `官网 <https://www.sphinx-doc.org/en/master/man/sphinx-build.html>`_
+
+::
+
+    # 自定义构建目录
+    sphinx-build -b html document/source ~/doc
+
+
 优化文档
 ************************************
 
