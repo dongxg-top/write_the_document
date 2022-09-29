@@ -117,3 +117,5 @@ Sphinx 默认不支持中文搜索，需要安装中文分词扩展来支持中�
 ::
 
     html_theme = 'sphinx_rtd_theme'
+
+更多主题请参见： `sphinx 在线主题预览 <https://sphinx-themes.org>`_
