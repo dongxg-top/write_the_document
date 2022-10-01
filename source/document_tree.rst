@@ -6,15 +6,15 @@
 ::
 
     project_name/
-    │ make.bat
-    │ Makefile
-    ├─build/
-    └─source/
-        │ conf.py
-        │ index.rst
-        │ welcome.rst
-        ├─chapter/
-        └─img/
+    ├── make.bat
+    ├── Makefile
+    ├── build/
+    └── source/
+        ├── conf.py
+        ├── index.rst
+        ├── welcome.rst
+        ├── chapter/
+        └── img/
 
 - make.bat 快速构建文档的脚本工具
 - build/ 构建文档完成后的输出目录（默认）
@@ -43,10 +43,10 @@
 ************************************
 
 图片文件名依据“引用文件名 + 下划线 + 序号”而命名。序号占用两位，不够用零补齐。
-例如，在 welcome.rst 文件中插入图片时，命名为 welcome_01.jpg、welcome_02.jpg（依次类推）。
+例如，在 welcome.rst 文件中插入图片时，命名为 welcome_01.jpg、welcome_02.jpg（依此类推）。
 
 对于需要多次引用的图片，例如 Icon 图标，可以使用原意单词命名，命名规则参见 `文件命名`_ 。
 
-.. note:: 图片的大小
+.. hint:: 图片的大小
 
     根据输出用途不同，图片的大小应相应的调整。用于显示屏幕（网页）时，建议图片宽度最大不超过 700px。用于打印时，应使用高清图片，并根据打印尺寸的大小选择相应尺寸，打印为 A4 大小时，建议图片宽度最大不超过 1350px。

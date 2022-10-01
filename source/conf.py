@@ -34,8 +34,8 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-# html_theme = 'alabaster'
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'alabaster'
+# html_theme = 'sphinx_rtd_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -45,11 +45,15 @@ html_static_path = ['_static']
 # html_search_language = 'zh'
 
 html_favicon = 'img/favicon.ico'
-html_logo = 'img/logo.gif'
-
-html_permalinks = False
-
-html_show_sphinx = False
 html_copy_source = False
+
+html_theme_options = {
+    'logo': 'logo.png',
+    'logo_name': 'true',
+    'show_powered_by': 'false',
+    'show_relbar_bottom': 'true',
+    'caption_font_family': 'sans-serif',
+    'sidebar_text': 'sans-serif',
+}
 
 highlight_language = 'none'
